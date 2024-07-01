@@ -1,0 +1,11 @@
+{
+  "name": "Fildem global menu",
+  "description": "Global menu for Gnome",
+  "settings-schema": "org.gnome.shell.extensions.fildem-global-menu",
+  "shell-version": [
+    "45",
+    "46"
+  ],
+  "url": "https://github.com/gonzaarcr/Fildem",
+  "uuid": "fildemGMenu@gonza.com"
+}
