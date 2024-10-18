@@ -15,9 +15,14 @@ sudo pacman -S bamf appmenu-gtk-module libkeybinder3 libdbusmenu-gtk2 libdbusmen
 yay -S python-fuzzysearch         #replace with your aur helper
 ```
 
-Download the file in the releases and install it
+Download the file in the releases 
 ```
-sudo pacman-U python3-fildem-0.6.7-1-x86_64.pkg.tar.zst
+curl -L0 https://github.com/AndreaScerra/FIldem-Menu-Gnome-46/releases/download/Public/python3-fildem-0.6.7-1-x86_64.pkg.tar.zst > python3-fildem-0.6.7-1-x86_64.pkg.tar.zst
+```
+
+and install it
+```
+sudo pacman -U python3-fildem-0.6.7-1-x86_64.pkg.tar.zst
 ```
 
 Go to the cloned repository directory and run
